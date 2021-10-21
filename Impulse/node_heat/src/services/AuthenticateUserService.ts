@@ -73,7 +73,7 @@ class AuthenticateUserService {
       }
     );
 
-    return response.data;
+    return {token, user};
   }
 }
 
