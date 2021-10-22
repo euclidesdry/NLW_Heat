@@ -1,3 +1,3 @@
 import { serverHttp } from "./app";
 
-serverHttp.listen(4000, () => console.log(` 🚀 Server is running on PORT: 4224!`));
+serverHttp.listen(4224, () => console.log(`🚀 Server is running on PORT: 4224 😃 !`));
