@@ -2,7 +2,7 @@
   "name": "web",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3535",
     "build": "tsc && vite build",
     "serve": "vite preview"
   },
