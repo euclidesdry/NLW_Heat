@@ -5,11 +5,15 @@ import { styles } from './styles';
 
 // Components
 import { Header } from '../../components/Header';
+import { MessageList } from '../../components/MessageList';
 
 export function Home() {
   return (
-    <View style={styles.container}>
+    <View
+      style={styles.container}
+    >
       <Header />
+      <MessageList />
     </View>
   );
 }
