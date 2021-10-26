@@ -9,7 +9,7 @@ import { Button } from '../Button';
 
 export function SignInBox() {
   return (
-    <View>
+    <View style={styles.container}>
       <Button
         title="ENTRAR COM O GITHUB"
         color={COLORS.BLACK_PRIMARY}
