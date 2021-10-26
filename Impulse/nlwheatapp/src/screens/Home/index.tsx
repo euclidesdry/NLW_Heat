@@ -6,6 +6,7 @@ import { styles } from './styles';
 // Components
 import { Header } from '../../components/Header';
 import { MessageList } from '../../components/MessageList';
+import { SignInBox } from '../../components/SignInBox';
 
 export function Home() {
   return (
@@ -14,6 +15,7 @@ export function Home() {
     >
       <Header />
       <MessageList />
+      <SignInBox />
     </View>
   );
 }
